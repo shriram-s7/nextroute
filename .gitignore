@@ -1,0 +1,11 @@
+node_modules
+dist
+.env
+.env.local
+.vercel
+*.mp4
+data/gtfs-raw
+data/chennai-unified-gtfs.zip
+data/directions-cache
+*.log
+antigravity-work/temp_video_build

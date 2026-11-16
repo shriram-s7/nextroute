@@ -1,0 +1,104 @@
+{
+  "bbox": {
+    "latMin": 12.3,
+    "latMax": 13.7,
+    "lonMin": 79.5,
+    "lonMax": 80.5
+  },
+  "checks": [
+    {
+      "name": "stop coordinates parse",
+      "pass": true,
+      "detail": "0 unparseable of 6542"
+    },
+    {
+      "name": "all stops inside Chennai region",
+      "pass": true,
+      "detail": "0 of 6542 outside bbox; samples: none"
+    },
+    {
+      "name": "MTC stops inside Chennai region",
+      "pass": true,
+      "detail": "0 of 5580 MTC stops outside bbox"
+    },
+    {
+      "name": "no New York coordinates",
+      "pass": true,
+      "detail": "0 stops near NYC"
+    },
+    {
+      "name": "MTC stop centroid is Chennai",
+      "pass": true,
+      "detail": "median lat/lon = 13.05508, 80.18485"
+    },
+    {
+      "name": "MTC bus routes present",
+      "pass": true,
+      "detail": "4611 MTC routes (route_type set: 3)"
+    },
+    {
+      "name": "trips reference valid routes",
+      "pass": true,
+      "detail": "0 orphan trips of 48435"
+    },
+    {
+      "name": "stop_times reference valid trips",
+      "pass": true,
+      "detail": "0 orphan rows"
+    },
+    {
+      "name": "stop_times reference valid stops",
+      "pass": true,
+      "detail": "0 rows with unknown stop"
+    },
+    {
+      "name": "stop_times have parseable times",
+      "pass": true,
+      "detail": "0 of 1389081 rows without a time"
+    },
+    {
+      "name": "MTC trips have stop sequences",
+      "pass": true,
+      "detail": "0 of 47047 MTC trips lack ≥2 stop_times"
+    },
+    {
+      "name": "stop sequences strictly increasing",
+      "pass": true,
+      "detail": "0 trips with duplicate sequence numbers"
+    },
+    {
+      "name": "times non-decreasing along trips",
+      "pass": true,
+      "detail": "0 trips go backwards in time"
+    },
+    {
+      "name": "consecutive stops are plausibly close",
+      "pass": true,
+      "detail": "1793 of 47047 trips have a >8 km hop between consecutive stops"
+    },
+    {
+      "name": "scheduled speeds plausible for city buses",
+      "pass": true,
+      "detail": "straight-line schedule speed km/h p10=15.0 p50=20.7 p90=30.5"
+    }
+  ],
+  "ok": true,
+  "mtcShapes": {
+    "shapeIdsInFeed": 13,
+    "mtcTripsWithShape": 0
+  },
+  "shapesUsableForMtc": false,
+  "mtcTripsByService": {
+    "MTC-Regular": 46973,
+    "MTC-HSC": 74
+  },
+  "counts": {
+    "stops": 6542,
+    "mtcStops": 5580,
+    "routes": 5402,
+    "mtcRoutes": 4611,
+    "trips": 48435,
+    "mtcTrips": 47047,
+    "stopTimes": 1389081
+  }
+}
