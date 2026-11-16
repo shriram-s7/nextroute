@@ -20,7 +20,7 @@
 
 ## ⚡ Quick Links
 
-- **🚀 Live Interactive Demo:** [https://nextroute-chennai.vercel.app](https://nextroute-chennai.vercel.app) *(or [https://nextroute-xi.vercel.app](https://nextroute-xi.vercel.app))*
+- **🚀 Live Interactive Demo:** [https://nextroute-chennai.vercel.app](https://nextroute-chennai.vercel.app)
 - **🎬 3-Minute Video Walkthrough:** [Watch on YouTube](https://youtu.be/bHB8_MGsFZs?si=WgJiptxd2Cd1z6WH)
 - **📊 Benchmark Experiment Suite:** [results/RESULTS.md](results/RESULTS.md)
 - **📐 Architectural Decisions:** [DECISIONS.md](DECISIONS.md)
