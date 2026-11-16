@@ -9,3 +9,6 @@ data/chennai-unified-gtfs.zip
 data/directions-cache
 *.log
 antigravity-work/temp_video_build
+
+.vercel
+.env*
